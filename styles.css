@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  background-image: radial-gradient(#000f0a 2px, transparent 2px), radial-gradient(#000f0a 2px, transparent 2px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  background-color: #05e6a7;
+}
+
+#calculator {
+  width: 40%;
+  height: 80%;
+  min-width: 550px;
+  min-height: 350px;
+  border: 2px groove brown;
+  overflow-y: hidden;
+  position: absolute;
+}
+
+
+#display {
+  position: absolute;
+  top: 0.1px;
+  margin-left: 2px;
+  padding: 5px;
+  color: blue;
+  width: 95%;
+  min-height: 10px;
+  height: 40px;
+  border: 6px solid cyan;
+  border-top-color: #2128e3;
+  border-bottom-color: #2128e3;
+  border-radius: 30px;
+  background-color: red;
+  font-size: 30px;
+}
+.button {
+  position: relative;;
+  top:30%;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 3px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  height: 10%;
+  font-size: 1.8rem;
+  text-align: center;
+  border: 1px solid blue;
+  border-radius: 30px;
+  border-left-color: red;
+  border-right-color: red;
+  padding: 0px;
+  margin: 8px;
+  cursor: pointer;
+  background-size: 300% 10%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.button:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hilna {
+  /* width:100px;  */
+  /* float:left; */
+}
+
+.color-2 {
+  background-image: linear-gradient(
+    to right,
+    #f5ce62,
+    #e43603,
+    #fa7199,
+    #e85a19
+  );
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+.max-len {
+  width: 43.5%;
+}
+min-font {
+  font-size: 1.5rem;
+}
